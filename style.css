@@ -50,7 +50,7 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     background: var(--dark);
     -webkit-font-smoothing:antialiased;
-    height: 5000px;
+    height: 500px;
 }
 
 

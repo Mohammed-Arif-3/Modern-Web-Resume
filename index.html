@@ -19,11 +19,11 @@
                    MOHAMMED's CV
             </div>
                      
-            <div>
-                <button>
-                    <i class="uil uil-print"></i>
-                    Print
-                </button>
+            <div class="menu_btn">
+              <a href="#about" class="menu-btn">About</a>
+              <a href="#Education" class="menu-btn">Education & Skills</a>
+              <a href="#project" class="menu-btn">Project</a>
+              <a href="#contact" class="menu-btn">Contact Me</a>
             </div>
         </div>
     </nav>
@@ -37,14 +37,15 @@
 
                         </span>
                     </div>
-                    <div>
+                    <div id="about">
                         <h2>Mohammed Arif</h2>
                         <p class="cd-headline loading-bar">
                             <span class="cd-words-wrapper">
-                                <b class="is-visible">Junior Year student</b>
-                                <b>Programmer </b>
+                                <b class="is-visible">Senior Year student</b>
+                                <b>Competative Programmer </b>
                                 <b>Content Writer</b>
                                 <b>Andriod Developer</b>
+                                <b>Web Developer</b>
                             </span>
                         </p>
                     </div>
@@ -82,6 +83,11 @@
                                 <i class="uil uil-linkedin"></i>
                             </a>
                         </li>
+                        <li>
+                            <a href="https://github.com/Mohammed-Arif-3">
+                                <i class="uil uil-github"></i>
+                            </a>
+                        </li>
                     </ul>
                 
             </div>
@@ -94,9 +100,11 @@
                 <p>
                     Studying Junior Year in Information Technology at Malla Reddy Engineering College and moving towards being a UX/UI designer.
                     </p>
-                    <button onclick="location.href='./images/Mohammed Arif Resume.pdf';">
+                    <button onclick="window.open('./images/Mohammed Arif Resume.pdf', '_blank');">
+
                         Download Cv
                     </button>
+                    <p>!!Download my resume here ⬆️!!</p>
 
             </div>
             <div class="right">
@@ -119,7 +127,7 @@
                 </p>
                 <p>
                     <span>Interest</span>
-                    <span>Sports, Travelling, Programming,Gaming.</span>
+                    <span>Programming,Ux/Ui designing,Problem Solving,Gaming.</span>
                 </p>
             </div>
         </div>
@@ -127,7 +135,7 @@
         </section>
         <section class="skills">
             <h1 class="section_heading">Education & Skills</h1>
-            <div class="content">
+            <div class="content" id="Education">
                 <div class="left">
                     <div class="inner_left">
                         <div class="heading">
@@ -209,21 +217,25 @@
             </div>
         
         </section>
-        <section class="project">
+        <section class="project" id="project">
                 <h1 class="section_heading">Project</h1>
-            <div class="content">
+            <div class="content" >
                 <div class="left">
-                    <h2>1.Enhanced Polymeric Plywood: </h2>
-                    <p>The idea of this project is to convert the unused rice 
-                        straw into a strong and long-lasting plywood that will be 
-                        fire resistant, waterproof, and termite proof. It will be 
-                        available at a low cost for manufacturing and it will be 
-                        helpful to reduce deformation.</p> <br> <br>
-                    <h2>2. U-Kam:</h2>
-                    <p> An OCR application which will help the user by 
-                        converting the paper text into a mobile text by just 
-                        clicking the picture of paper and it will extract the 
-                        sentence and provide it to the device.</p>
+                    <h2>AI-Coder: </h2>
+                    <p>Ai-Coder Ai-Coder is an online website that leverages the power of the ChatGPT API 
+                        to provide a seamless experience for converting programming language code or natural language 
+                        into another programming language. It is built using Next.js and React framework, making it fast,
+                         efficient, and user-friendly.</p> <br> <br>
+                    <h2>Codechef Cards</h2>
+                    <p> A website which provide the information of a user’s competitive programming ranking and rating in codechef which can be helplful for self-improvement or comparision with friends ranking.</p>
+                        <br><br>
+                        <h2>Modern Web Resume </h2>
+                        <p>The self-portfolio project is a personal website that showcases an individual's skills, experience, and achievements.  The website typically includes a brief bio, resume, project samples, and contact information.</p> <br> <br>
+                        <h2>U-Kam</h2>
+                        <p> An OCR application which will help the user by 
+                            converting the paper text into a mobile text by just 
+                            clicking the picture of paper and it will extract the 
+                            sentence and provide it to the device.</p>
                 </div>
                 <br>
                 <br>
@@ -258,7 +270,7 @@
 
         <section class="contact">
             <h1 class="section_heading">Contact Me</h1>
-            <div class="wrapper">
+            <div class="wrapper" id="contact">
                 <div class="left">
                     <div>
                         <div><i class="uil uil-phone-volume"></i></div>
@@ -278,12 +290,12 @@
                         <div><i class="uil uil-map-marker"></i></div>
                         <div>
                             <h4> Find Me :</h4>
-                            <span> H.no:9-5-5/42,Momin Mohalla Colony, Gadwal, Telangana 509125.</span>
+                            <span> Plot Number 217,BD Colony, Gadwal, Telangana 509125.</span>
                         </div>
                     </div>
                 </div>
                 <div class="right">
-                    <form action="">
+                    <form action="contactForm">
                         <div class="form_group" >
                             <div>
                                 <label for="">Name</label>

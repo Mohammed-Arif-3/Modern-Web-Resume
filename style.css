@@ -70,6 +70,7 @@ h1,h2,h3,h4,h5,h6{
 
 }
 nav{
+    
     background: var(--primary);
     padding:1.6rem 0;
 }
@@ -96,6 +97,16 @@ nav .inner button{
     border-radius: 4px;
 }
 
+
+nav .container .menu_btn  a{
+    background-color: rgba(31, 31, 32, 0.1);
+    padding: 9px;
+    color: var(--pure);
+    margin-right: 9px;
+    margin-right: 5px;;
+    border-radius: 15px;
+   
+}
 section.profile {
     background:var(--black);
     display: flex;
@@ -191,12 +202,13 @@ section.profile .right ul.socials {
     display: flex;
     align-items: center;
     list-style-type: none;
+   
 
 
 }
 
 section.profile .right ul.socials li {
-    margin-right: 0.8rem;
+    margin-right:4%;
 }
 
 section.profile .right ul.socials li a {
@@ -222,6 +234,9 @@ section.profile .right ul.socials li:nth-child(3) a {
 }
 section.profile .right ul.socials li:nth-child(4) a {
     background: var(--danger);
+}
+section.profile .right ul.socials li:nth-child(5) a {
+    background: var(--dark-blue);
 }
 
 .section_heading {
@@ -273,17 +288,42 @@ section.about .content p {
     line-height: 1.6rem;
     letter-spacing: 0.1px;
     margin-bottom: 1rem;
+    margin-bottom: 5px;
 }
 
-section.about .content .left button{
+section.about .content .left button {
     background: rgba(184, 189, 201, 0.1);
     color: var(--info);
-    padding: 4px 8px;
+    padding: 6px 8px;
+    margin: 8%;
+    margin-left: 15%;
     font-size: 12px;
     border: none;
     line-height: 24px;
     outline: none;
     cursor: pointer;
+    border-radius: 6%;
+    transition: background-color 0.3s ease; /* Adding a smooth transition */
+}
+
+section.about .content .left h4 {
+    color: var(--pure);
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+    margin-left: 25%;
+
+}
+
+section.about .content .left button:hover {
+    background-color: rgba(251, 251, 251, 0.8); /* Blueish color */
+}
+
+
+section.about .content .left button :hover{
+    background: rgba(207, 7, 7, 0.1);
+    color: var(--pure);
 }
 section.about .content .right p {
     line-height: 1.6;
@@ -432,8 +472,9 @@ section.project .left p {
 
 
 section.project .right ul.certificate {
-    list-style-type: lower-greek;
+    list-style-type: style type;;
     margin-bottom: 1.6rem;
+    margin-left: 3%;
 }
 
 section.project .right ul.certificate li {
